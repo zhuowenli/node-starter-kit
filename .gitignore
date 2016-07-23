@@ -1,0 +1,31 @@
+.DS_Store
+*.lock
+/**/.cache/
+/**/*.log
+/**/*.lock
+
+# node
+node_modules
+npm-debug.log
+.env
+
+# app
+*.nginx.conf
+
+# build
+__build
+__build.lock
+
+# IDE
+.idea
+
+*.sublime-project
+*.sublime-workspace
+
+# bower
+bower_components
+
+# sass
+.sass-cache
+*.css.map
+config.codekit
